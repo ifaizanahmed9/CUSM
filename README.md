@@ -5,9 +5,9 @@
 
 
 **Features**
-Assignments: Access a repository of assignments across various subjects and courses.
-Projects: Find project ideas and completed projects to aid your academic work.
-PPTs: Download PowerPoint presentations that align with your coursework.
-Modules: Get comprehensive module materials to help with your studies.
-YouTube Lectures: Links to relevant YouTube lectures to supplement your learning.
-Hand-Written Notes: Genuine, thoroughly checked notes by top-performing students.
+<ul>Assignments: Access a repository of assignments across various subjects and courses. </ul>
+<ul>Projects: Find project ideas and completed projects to aid your academic work. </ul>
+<ul>PPTs: Download PowerPoint presentations that align with your coursework. </ul>
+<ul>Modules: Get comprehensive module materials to help with your studies. </ul>
+<ul>YouTube Lectures: Links to relevant YouTube lectures to supplement your learning. </ul>
+<ul>Hand-Written Notes: Genuine, thoroughly checked notes by top-performing students.</ul>
