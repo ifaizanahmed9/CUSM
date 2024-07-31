@@ -1,0 +1,163 @@
+body {
+  font-size: 18px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.menu_items {
+  margin: 30px 0px 0px 5px;
+}
+.menu_link {
+  color: #000;
+  margin-left: 20px;
+}
+.menu_link:active {
+  color: #ccc;
+}
+
+.full_screen {
+  min-height: 100vh;
+}
+.logo {
+  padding-top: 10px;
+}
+
+.mw {
+  max-width: 100px;
+}
+
+.t-50 {
+  font-size: 50px;
+}
+.t-15 {
+  font-size: 15px;
+}
+.col-light {
+  color: #525252;
+}
+
+img {
+  max-width: 100%;
+}
+
+.primary-button {
+  primary-color: #4458dc;
+  gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  border: 1px solid #854fee;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #854fee;
+  color: #fff;
+  transition: 0.5s;
+}
+.primary-button:hover {
+  background: #fff;
+  color: #000;
+  box-shadow: 0px 1px 8px #ccc;
+}
+
+.services-area {
+  padding: 7rem 2rem;
+}
+.services-area .services-title {
+  padding: 0 14rem;
+}
+.services-area .services-title h1 {
+}
+.services-area .services {
+  background: rgba(248, 252, 253, 0.973);
+  padding: 2rem 0;
+  margin: 5rem 0px;
+  transition: box-shadow 0.7s ease;
+}
+.services-area .services:hover {
+  box-shadow: 0px 3px 8px #ccc;
+}
+
+.owl-item {
+  text-align: center;
+}
+
+.testimonial {
+  padding: 1% 5%;
+  transition: box-shadow 0.7s ease;
+}
+.testimonial:hover {
+  box-shadow: 1px 1px 8px #ccc;
+}
+
+.fa-whatsapp {
+  color: #4458dc;
+}
+.fa-telegram {
+  color: #4458dc;
+}
+.fa-youtube-play {
+  color: #4458dc;
+}
+.fa-instagram {
+  color: #4458dc;
+}
+
+.footer {
+  height: auto;
+  padding: 50px 0px;
+  background-color: #fcf8ff;
+}
+@media only screen and (max-width: 700px) {
+  body {
+    font-size: 15px;
+  }
+
+  .services-area .services {
+    margin: 1rem 0px;
+  }
+
+  .footer {
+    margin-top: 15px;
+  }
+
+  .mw {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+}
+
+/* start navigation */
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: blue;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: blue;
+  background-clip: text;
+}
+
+/* end navigation */
